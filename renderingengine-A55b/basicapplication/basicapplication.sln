@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "basicapplication", "basicapplication.vcxproj", "{404EEFA4-5F34-481E-B98E-01D7DB93A206}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "firstshaders", "..\firstshaders\firstshaders.vcxproj", "{E3B0E2D7-F67B-47A8-9331-CC312FA369D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{404EEFA4-5F34-481E-B98E-01D7DB93A206}.Debug|x64.ActiveCfg = Debug|Win32
+		{404EEFA4-5F34-481E-B98E-01D7DB93A206}.Debug|x86.ActiveCfg = Debug|Win32
+		{404EEFA4-5F34-481E-B98E-01D7DB93A206}.Debug|x86.Build.0 = Debug|Win32
+		{404EEFA4-5F34-481E-B98E-01D7DB93A206}.Release|x64.ActiveCfg = Release|Win32
+		{404EEFA4-5F34-481E-B98E-01D7DB93A206}.Release|x86.ActiveCfg = Release|Win32
+		{404EEFA4-5F34-481E-B98E-01D7DB93A206}.Release|x86.Build.0 = Release|Win32
+		{E3B0E2D7-F67B-47A8-9331-CC312FA369D4}.Debug|x64.ActiveCfg = Debug|Win32
+		{E3B0E2D7-F67B-47A8-9331-CC312FA369D4}.Debug|x86.ActiveCfg = Debug|Win32
+		{E3B0E2D7-F67B-47A8-9331-CC312FA369D4}.Debug|x86.Build.0 = Debug|Win32
+		{E3B0E2D7-F67B-47A8-9331-CC312FA369D4}.Release|x64.ActiveCfg = Release|Win32
+		{E3B0E2D7-F67B-47A8-9331-CC312FA369D4}.Release|x86.ActiveCfg = Release|Win32
+		{E3B0E2D7-F67B-47A8-9331-CC312FA369D4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19D535A7-9821-4E09-8C2F-82F9C1B31942}
+	EndGlobalSection
+EndGlobal

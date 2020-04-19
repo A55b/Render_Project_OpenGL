@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TmgRender.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TmgShaders.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TmgCamera.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TmgMesh.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aiterror.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TmgShaders.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TmgRender.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TmgCamera.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TmgVertex.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TmgMesh.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fragmentshader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="vertexshader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{870279e3-c60e-4a31-ac40-85a0d012bea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{9722365f-3d7b-45ad-addc-d6bed18113e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{d8f7b63f-1606-400c-ae10-506c3e0ff586}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
